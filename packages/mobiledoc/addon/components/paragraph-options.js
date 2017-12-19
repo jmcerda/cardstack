@@ -4,7 +4,6 @@ import { currentTransform } from '../lib/matrix';
 import Range from 'mobiledoc-kit/utils/cursor/range';
 import { containsNode } from 'mobiledoc-kit/utils/dom-utils';
 import layout from '../templates/components/paragraph-options';
-import inject from 'ember-service/inject';
 import { NEW_LINE_HREF } from './-priv-mobiledoc-editor';
 
 export default Component.extend({
